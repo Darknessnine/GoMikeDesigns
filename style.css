@@ -361,11 +361,15 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-/* new */
+/* new -------------------------------------------------------------------------------------------------------------------------*/
 
 .hover-link:hover{
     color: #ff9b04!important;
 
+}
+
+.quote-style{
+    color: #424242;
 }
 
 /* form */
@@ -379,9 +383,9 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
+  } 
   
-  input[type=submit] {
+ input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -393,12 +397,20 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
-  .container {
+  .contact{
+      color: #000000;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+      font-size: 25px;
+      margin: 0px;
+      padding: 10px 0px;
+
+  }
+
+  .contact-con {
     width:500px;
     border-radius: 5px;
     padding: 10px;
-  }
+  } 
 
 
 @media (min-width: 768px) {

@@ -372,11 +372,9 @@ a:hover {
     color: #424242;
 }
 
-.partner-links li {
- display: inline;
- text-align: center;
- margin: auto;
-}
+ .partner-links li {
+list-style-type: none;
+} 
 
 /* form */
 

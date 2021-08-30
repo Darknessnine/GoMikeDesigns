@@ -372,9 +372,19 @@ a:hover {
     color: #424242;
 }
 
- .partner-links li {
-list-style-type: none;
+.partner-links li {
+list-style-type: none !important;
+display: inline !important;
 } 
+
+
+.li-margin{
+
+    color: rgb(189, 189, 189) !important;
+    padding-left: 38px;
+    size: 15px;
+    font-weight: bold;
+}
 
 /* form */
 
@@ -427,6 +437,28 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 10px;
   } 
+
+
+  @media only screen  and (max-width: 766px){
+    input[type=text], select, textarea {
+        width: 250px;
+      } 
+    
+      input[type=email] {
+        width: 250px;
+
+      } 
+      
+      .label-text{
+          display: block;
+      }
+
+      .text-area{
+          width: 250px !important;
+      }
+
+
+  }
 
 
 @media (min-width: 768px) {

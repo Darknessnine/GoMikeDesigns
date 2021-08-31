@@ -372,19 +372,24 @@ a:hover {
     color: #424242;
 }
 
-.partner-links li {
-list-style-type: none !important;
-display: inline !important;
+li  {
+ list-style-type:none ;
+
 } 
 
-
-.li-margin{
-
-    color: rgb(189, 189, 189) !important;
+.footer-p{
+    color: rgb(211, 211, 211) !important;
     padding-left: 38px;
-    size: 15px;
+    font-size: 15px;
     font-weight: bold;
+    margin-bottom: 5px;
+
 }
+
+.footer-link-padding{
+   margin-top: 30px;
+}
+
 
 /* form */
 
@@ -436,6 +441,7 @@ input[type=text], select, textarea {
     width:500px;
     border-radius: 5px;
     padding: 10px;
+
   } 
 
 
@@ -457,6 +463,17 @@ input[type=text], select, textarea {
           width: 250px !important;
       }
 
+      .contact-con {
+        width:250px;
+      } 
+
+      .contact{
+        margin-left:  -10px;
+    }
+
+      #h1-text{
+          font-size: 33px !important;
+      }
 
   }
 

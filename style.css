@@ -363,6 +363,16 @@ a:hover {
 }
 /* new -------------------------------------------------------------------------------------------------------------------------*/
 
+.text-large{
+    font-size: 16px !important;
+}
+
+.contact-info
+{
+    display: block;
+    position: relative;
+}
+
 .hover-link:hover{
     color: #ff9b04!important;
 
